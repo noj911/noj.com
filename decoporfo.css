@@ -1,0 +1,146 @@
+body
+{
+    background: url('images/fond.jpg');
+	text-color:white;
+	width: 900px;
+    margin: auto;
+	color:black;
+}
+section h1, footer h1, nav a
+{
+    text-transform: uppercase;
+}
+/* Header */
+header
+{
+    justify-content: space-between;
+    align-items: flex-end;
+	display: flex;
+    flex-direction: collapse;
+	}
+
+#logo img
+{
+    width: 59px;
+    height: 60px;
+}
+header h2
+{
+    font-family: Dayrom;
+    font-size: 1.1em;
+    margin-top: 0px;
+    font-weight: normal;
+}
+@media all and (max-width: 1024px)
+{
+    body
+    {
+        width: auto;
+    }
+}
+@media all and (max-width: 1024px)
+{
+    nav
+    {
+        width: auto;
+        text-align: left;
+    }
+    
+    nav ul
+    {
+        flex-direction: column;
+    }
+
+    nav li
+    {
+        padding-left: 4px;
+    }
+    
+    nav a
+    {
+        font-size: 1.1em;
+    }
+    
+    nav a:hover
+    {
+        border-bottom: 0;
+    }
+}
+@media all and (max-width: 1024px)
+{
+    #banniere_image
+    {
+        display: none;
+    }
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+}
+
+nav a:hover
+{
+    color: grey;
+    border-bottom: 3px solid #760001;
+}
+
+/* Bannière */
+
+#banniere_image
+{
+    margin-top: 15px;
+    height: 200px;
+    border-radius: 5px;
+    background: url('images/dev.jpg') repeat;
+    position: relative;
+    margin-bottom: 25px;
+}
+/* Corps */
+milieu
+{
+    display: flex;
+    margin-bottom: 20px;
+}
+article
+{
+    margin-right: 20px;
+    flex: 3;
+}
+article p
+{
+    font-size: 0.8em;
+}
+/* Footer */
+
+footer
+{
+    display: flex;
+    padding-top: 25px;
+}
+footer h1
+{
+    font-size: 1.1em;
+}
+#field
+{
+    width: 28%;
+}
+#tof
+{
+    width: 35%;
+}
+
